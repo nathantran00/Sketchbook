@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+  </head>
+  <body>
+    <h1>My Stupid Little Sketchbook</h1>
+
+    <div id="canvasContainer">
+      <button id="clearButton">Clear Masterpiece</button>
+      <canvas id="drawArea" width="800" height="600"></canvas>
+    </div>
+    
+    <div id="colorPicker">
+        <div class="color" style="background: Red" data-color="#ff0000" data-name="Red"></div>
+        <div class="color" style="background: Orange" data-color="#ffa500" data-name="Orange"></div>
+        <div class="color" style="background: Yellow" data-color="#ffff00" data-name="Yellow"></div>
+        <div class="color" style="background: Green" data-color="#008000" data-name="Green"></div>
+        <div class="color" style="background: Blue" data-color="#0000ff" data-name="Blue"></div>
+        <div class="color" style="background: Indigo" data-color="#4b0082" data-name="Purple"></div>
+        <div class="color" style="background: Pink" data-color="#ffc0cb" data-name="Pink"></div>
+        <div class="color" style="background: Black" data-color="#000000" data-name="Black"></div>
+        <div class="color" style="background: White" data-color="#ffffff" data-name="White"></div>
+        <div class="color" style="background: Brown" data-color="#a52a2a" data-name="Brown"></div>
+        
+    </div>
+
+    
+    <h3 id="selectedColor">Selected Color: </h3>
+    
+    <label for="brushThickness">Brush Thickness:</label>
+    <input type="range" id="brushThickness" min="1" max="50" value="5">
+    <label for="brushOpacity">Brush Opacity:</label>
+    <input type="range" id="brushOpacity" min="0" max="1" step="0.1" value="1">
+    
+    <button style="margin:10px" id="downloadButton">Download Masterpiece</button>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>

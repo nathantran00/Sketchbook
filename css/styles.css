@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #282828;
+    margin: 0;
+    padding: 0;
+    color: rgb(246, 246, 246);
+  }
+
+
+  #canvasContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 80vw;
+    position: relative;
+}
+
+  
+  #drawArea {
+    max-width: 100%;
+    max-height: 100%;
+    background: #ffffee;
+  }
+  
+  #colorPicker {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .color {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .color.selected {
+    border-color: black;
+  }
+  
+  #clearButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+  }
+  
