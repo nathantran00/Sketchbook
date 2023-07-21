@@ -22,7 +22,7 @@ TODO:
   <li>A gradient builder/brush for 3D painting</li>
   <li>Comfirmation dialog for Masterpiece deletion</li>
   <li>Abilty for users to name their downlaoded Masterpiece</li>
-  <li>Continuous drawing, even if cursor leaves canvas area/li>
+  <li>Continuous drawing, even if cursor leaves canvas area</li>
   <li>Address the fact that circles appear when brushOpacity is low + user's drawing speed is fast </li>
   <li>General styling</li>
 </ul>
