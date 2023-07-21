@@ -15,7 +15,7 @@
 TODO: 
 
 <ul>
-  <li>Mobile-Friendliness</li>
+  <li>Mobile-Friendliness🫶</li>
   <li>Undo/Redo buttons</li>
   <li>Eraser tool</li>
   <li>Portrait/Landscape orientation button</li>
