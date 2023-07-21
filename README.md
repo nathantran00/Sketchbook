@@ -20,8 +20,8 @@ TODO:
   <li>Eraser tool</li>
   <li>Portrait/Landscape orientation button</li>
   <li>A gradient builder/brush for 3D painting</li>
-  <li>Comfirmation dialog for Masterpiece deletion</li>
-  <li>Abilty for users to name their downlaoded Masterpiece</li>
+  <li>Confirmation dialog for Masterpiece deletion</li>
+  <li>Abilty for users to name their downloaded Masterpiece</li>
   <li>Continuous drawing, even if cursor leaves canvas area</li>
   <li>Address the fact that circles appear when brushOpacity is low + user's drawing speed is fast </li>
   <li>General styling</li>
