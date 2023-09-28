@@ -1,5 +1,5 @@
 # Sketchbook
-<h3>A canvas drawing tool using JavaScript</h3>
+<h3>A canvas drawing tool powered by JavaScript</h3>
 
 <h4>Key Concepts:</h4>
 <ul>
